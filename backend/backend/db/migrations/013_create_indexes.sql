@@ -1,0 +1,10 @@
+CREATE INDEX idx_posts_created_at ON posts(created_at DESC);
+CREATE INDEX idx_posts_book_id ON posts(book_id);
+CREATE INDEX idx_posts_field_id ON posts(field_id);
+CREATE INDEX idx_posts_user_id ON posts(user_id);
+CREATE INDEX idx_follows_follower_id ON follows(follower_id);
+CREATE INDEX idx_follows_followee_id ON follows(followee_id);
+CREATE INDEX idx_answers_user_id ON answers(user_id);
+CREATE INDEX idx_answers_question_id ON answers(question_id);
+CREATE INDEX idx_highlights_user_id ON highlights(user_id);
+CREATE INDEX idx_highlights_book_id ON highlights(book_id);
