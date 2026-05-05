@@ -1,3 +1,0 @@
-ALTER TABLE highlights
-    ADD COLUMN IF NOT EXISTS source_app TEXT,
-    ADD COLUMN IF NOT EXISTS source_url TEXT;
