@@ -1,0 +1,4 @@
+ALTER TABLE answers
+  DROP COLUMN IF EXISTS score,
+  DROP COLUMN IF EXISTS feedback,
+  DROP COLUMN IF EXISTS grader_model;
